@@ -164,11 +164,24 @@ footer {
   text-decoration: none;
   font-weight: bold;
 }
-.BATMAN{
-  background: white;
-  color: black;
-  padding: 15px;
-  margin: 0 auto 20px;
-  max-width: 1200px;
+.scroll-horizontal {
+  color: #000000;
+  font-size: 50px;
+  display: flex;
+  overflow: auto;
+  gap: 12;
+  padding: 10px;
+  max-width: 500px;
+  text-align: center;
+  height: 200px;
+  position: absolute;
+  right: 500px;}
+.scroll-horizontal::-webkit-scrollbar{display: none;/*hide scrollbar*/}
+.card{
+  min-width:500px;
+  background: #f4f4f4;
+  padding: 16px;
   border-radius: 10px;
-  line-height: 50PX;
+  flex-shrink: 0;
+  align-items: center;
+}
