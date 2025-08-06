@@ -34,7 +34,7 @@ nav a {
   color: white;
   font-weight: bold;
   transition: 0.3s;
-
+text-decoration:none;
 }
 
 nav a:hover {
@@ -174,14 +174,40 @@ footer {
   max-width: 500px;
   text-align: center;
   height: 200px;
-  position: absolute;
   right: 500px;}
 .scroll-horizontal::-webkit-scrollbar{display: none;/*hide scrollbar*/}
 .card{
   min-width:500px;
   background: #f4f4f4;
   padding: 16px;
-  border-radius: 10px;
   flex-shrink: 0;
   align-items: center;
+}
+.movie-card {
+  background: #ddd;
+  color: black;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 100px;
+  padding: 100px 50px 70px;
+}
+
+.card {
+  background: #e0e0e0;
+  color: black;
+  border-radius: 10px;
+  padding: 100px;
+  text-align: center;
+  max-height: 1000px;
+}
+p{
+  padding: 50px;
 }
