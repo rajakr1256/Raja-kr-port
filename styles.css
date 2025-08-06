@@ -1,0 +1,155 @@
+* {
+  margin: 0PX;
+  padding: 0PX;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom, #1a0033, #000000);
+  color: white;
+   display: flex;
+  justify-content: center;
+}
+main {
+  background: linear-gradient(to bottom, #1a0033, #000000);
+  width: 500mm;
+  height: 500mm;
+  padding: 30px 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  overflow-y: auto;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  position: absolute;
+  right: 3%;
+}
+
+nav a {
+  background: #a366ff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s;
+
+}
+
+nav a:hover {
+  background: #d1b3ff;
+}
+h1 {
+  padding: 80px;
+  font-size: 5rem;
+  margin-top: 0px;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.about-box {
+  background: white;
+  color: black;
+  padding: 15px;
+  margin: 0 auto 20px;
+  max-width: 1200px;
+  border-radius: 10px;
+  line-height: 50PX;
+}
+.thought-box {
+  background: white;
+  color: black;
+  padding: 12px;
+  margin: 100px;
+  text-align: center;
+  max-width: 1500px;
+  border-radius: 25px;
+  position: relative;
+  font-weight: bold;
+}
+
+.thought-box:before {
+  content: "TODAY'S THOUGHT";
+  position: absolute;
+  top: -35px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #333;
+  color: white;
+  padding: 4px 12px;
+  font-size: 2rem;
+  border-radius: 15px;
+
+}
+.category-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  margin-top: 50px;
+}
+
+.category-buttons button {
+  padding: 15px 25px;
+  border: none;
+  background: white;
+  color: black;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor:grabbing;
+  transition: 0.3s;
+}
+
+.category-buttons button:hover {
+  background: #d9d9d9;
+}
+.post-container {
+  background: linear-gradient(to bottom, #ffffff, #cccccc);
+  padding: 20px;
+  border-radius: 20px;
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+.post-container h3 {
+  color: black;
+  font-size: 2rem;
+  margin: 50px;
+}
+.post-box {
+  max-width:1000px;
+  height: 500px;
+  margin: 10px auto;
+  background: #ddd;
+  border-radius: 10px;
+  position: relative;
+}
+
+.post-box.dark {
+  background: #333;
+}
+
+.icon-bar {
+  position: absolute;
+  bottom: 8px;
+  left: 10px;
+  font-size: 1.2rem;
+}
+footer {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.contact-button {
+  background: #a366ff;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
