@@ -428,6 +428,9 @@ body{
   transform: translateY(0%);
 
 }}
+.game {
+  padding: 0%;
+}
 
 
 
