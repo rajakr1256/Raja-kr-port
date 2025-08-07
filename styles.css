@@ -320,3 +320,115 @@ input[type="radio"] {
   text-decoration: none;
   font-weight: bold;
 }
+body{
+.container {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  gap: 8px;
+  position: absolute;
+  bottom: -500px;
+}
+
+.container > div {
+  flex: 0 0 200px;
+  border-radius: 0.5rem;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.container > div:nth-of-type(1) {
+  background: url(https://w0.peakpx.com/wallpaper/277/693/HD-wallpaper-the-batman-movie-art-design-poster.jpg)
+    no-repeat 50% / cover;
+}
+.container > div:nth-of-type(2) {
+  background: url(https://c4.wallpaperflare.com/wallpaper/410/331/586/movies-superman-man-of-steel-henry-cavill-wallpaper-preview.jpg)
+    no-repeat 50% / cover;
+}
+.container > div:nth-of-type(3) {
+  background: url(https://images2.alphacoders.com/112/1120632.jpg)
+    no-repeat 50% / cover;
+}
+.container > div:nth-of-type(4) {
+  background: url(https://images.thedirect.com/media/article_full/spider-man-no-way-home-poster-doc-ock.jpg)
+    no-repeat 50% / cover;
+}
+.container > div:nth-of-type(5) {
+  background: url(https://w0.peakpx.com/wallpaper/277/693/HD-wallpaper-the-batman-movie-art-design-poster.jpg)
+    no-repeat 50% / cover;
+}
+.container > div:nth-of-type(6) {
+  background: url(https://c4.wallpaperflare.com/wallpaper/410/331/586/movies-superman-man-of-steel-henry-cavill-wallpaper-preview.jpg)
+    no-repeat 50% / cover;
+}
+.container > div:nth-of-type(7) {
+  background: url(https://images2.alphacoders.com/112/1120632.jpg)
+    no-repeat 50% / cover;
+}
+.container > div:nth-of-type(8) {
+  background: url(https://images.thedirect.com/media/article_full/spider-man-no-way-home-poster-doc-ock.jpg)
+    no-repeat 50% / cover;
+}
+.container > div:nth-of-type(9) {
+  background: url(https://w0.peakpx.com/wallpaper/277/693/HD-wallpaper-the-batman-movie-art-design-poster.jpg)
+    no-repeat 50% / cover;
+}
+.container > div:nth-of-type(10) {
+  background: url(https://c4.wallpaperflare.com/wallpaper/410/331/586/movies-superman-man-of-steel-henry-cavill-wallpaper-preview.jpg)
+    no-repeat 50% / cover;
+}
+.container > div:nth-of-type(11) {
+  background: url(https://images2.alphacoders.com/112/1120632.jpg)
+    no-repeat 50% / cover;
+}
+.container > div:nth-of-type(12) {
+  background: url(https://images.thedirect.com/media/article_full/spider-man-no-way-home-poster-doc-ock.jpg)
+    no-repeat 50% / cover;
+}
+
+.container > div .content {
+  font-size: 1.5rem;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  opacity: 0;
+  flex-direction: column;
+  height: 100%;
+  justify-content: flex-end;
+
+  background: linear-gradient(
+    0deg,
+    rgba(2, 2, 46, 0.6755077031) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  transform: translateY(100%);
+  transition: opacity 0.5s ease-in-out, transform 0.5s 0.2s;
+  visibility: hidden;
+}
+
+.container > div:hover {
+  flex: 0 0 250px;
+  box-shadow: 1px 3px 15px rgb(0, 0, 0);
+  transform: translateY(-30px);
+}
+
+.container > div .content span {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+}
+
+.container > div:hover .content {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0%);
+
+}}
+
+
+
+
