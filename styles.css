@@ -60,11 +60,11 @@ h2 {
 .about-box {
   background: white;
   color: black;
-  padding: 15px;
+  padding: 10px;
   margin: 0 auto 20px;
   max-width: 1200px;
   border-radius: 10px;
-  line-height: 50PX;
+  line-height: 30PX;
 }
 .thought-box {
   background: white;
@@ -774,6 +774,184 @@ a {
 .footer-bottom-line {
   margin-top: 40px;
 }
+
+
+   body{ font-family: sans-serif;
+  background: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+.slider {
+  width: 80%;
+  max-width: 700px;
+  height: 60vh;
+  position: absolute;
+  top: 250px;
+  right: 400px;
+  overflow: hidden;
+  border-radius: 12px;
+
+}
+input[type="radio"] {
+  display: none;
+}
+
+.slides {
+  display: flex;
+  width: 400%;
+  height: 100%;
+  transition: transform 0.8s ease-in-out;
+}
+
+.item {
+  width: 100%;
+  height: 100%;
+  flex-shrink: 0;
+}
+
+.item img {
+  width: 26%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#s1:checked ~ .slides {
+  transform: translateX(0%);
+}
+#s2:checked ~ .slides {
+  transform: translateX(-100%);
+}
+#s3:checked ~ .slides {
+  transform: translateX(-200%);
+}
+#s4:checked ~ .slides {
+  transform: translateX(-300%);
+}
+
+.controls label {
+  position: absolute;
+  top: 250px;
+  transform: translateY(-50%);
+  font-size: 2.5rem;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  z-index: 10;
+  user-select: none;
+  display: none;
+}
+
+#s1:checked ~ .controls .prev { display: block; left: 10px; }
+#s1:checked ~ .controls .next { display: block; right: 10px; }
+
+#s2:checked ~ .controls .prev2 { display: block; left: 10px; }
+#s2:checked ~ .controls .next2 { display: block; right: 10px; }
+
+#s3:checked ~ .controls .prev3 { display: block; left: 10px; }
+#s3:checked ~ .controls .next3 { display: block; right: 10px; }
+
+#s4:checked ~ .controls .prev4 { display: block; left: 10px; }
+#s4:checked ~ .controls .next4 { display: block; right: 10px; }
+
+.dots {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+  z-index: 20;
+}
+
+.dots label {
+  width: 12px;
+  height: 12px;
+  background: white;
+  opacity: 0.5;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#s1:checked ~ .dots label:nth-child(1),
+#s2:checked ~ .dots label:nth-child(2),
+#s3:checked ~ .dots label:nth-child(3),
+#s4:checked ~ .dots label:nth-child(4),
+{
+  opacity: 1;
+  transform: scale(1.2);}
+
+   }
+  background: #111;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+
+
+.scroll-container {
+
+  overflow: hidden;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.scroll-content {
+  display: flex;
+  position: relative;
+}
+
+.scroll-content img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  margin-right: 100px;
+  border-radius: 10px;
+}
+
+.right-to-left .scroll-content {
+  animation: scroll-rtl 20s linear infinite;
+  bottom: -800px;
+}
+
+@keyframes scroll-rtl {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+.left-to-right .scroll-content {
+  animation: scroll-ltr 20s linear infinite;
+  bottom: -900px;
+}
+
+@keyframes scroll-ltr {
+  from { transform: translateX(-50%); }
+  to { transform: translateX(0); }
+}
+.right-to-left2 .scroll-content {
+  animation: scroll-rtl 20s linear infinite;
+  bottom: -1000px;
+}
+
+@keyframes scroll-rtl {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.music-para{
+  H2{
+    position: absolute;
+    top: 100px;
+    right: 42%;
+    font-size: 80px;
+    font-family: "Protest Riot", sans-serif;
+  }
+}
+
+
 
 
 

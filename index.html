@@ -22,9 +22,37 @@
     <h2>About.</h2>
 
     <div class="about-box">
-      Hey
-      Its me Raja, I am Master of Designing student and want to become designer, creating beautiful design and exceptional experience.
-    </div>
+      Hi, I'm Raja, born and raised in Jamshedpur, Jharkhand. I’m currently pursuing my Master’s in Design at Dhirubhai Ambani University, Gandhinagar, specializing in Communication Design. My journey so far has been quite diverse — I completed my 10th from Kerala Public School, Jamshedpur, and my 12th from Workers’ College, Jamshedpur, where I studied Commerce. Later, I graduated from Karim City College, Jamshedpur, with a Commerce Honours degree.
+       <span id="dots">...</span>
+      <span id="more">
+
+Although my academic background was rooted in commerce, my passion for creativity and design has always been the driving force in my life. From a young age, I’ve been deeply interested in drawing, art, and craftwork. Over time, this passion evolved into a serious career choice, which is why I decided to step into the world of design. I love exploring different forms of visual expression — whether it’s through illustration, digital art, or creative problem-solving.
+
+My interests go beyond the classroom. I enjoy travelling, listening to music, watching movies, and playing cricket. These experiences often inspire my creative thinking and broaden my perspective as a designer. My skill set includes working with tools like Adobe Illustrator, Figma, Adobe Photoshop, and Adobe Premiere Pro, along with expertise in art and craft, UX research, and teamwork. I have also gained industry exposure through my internship at Corizo, which helped me sharpen my design and research abilities in a professional setting.
+
+For me, design is not just about aesthetics — it’s about storytelling, creating experiences, and connecting with people through visuals. I’m constantly learning, experimenting, and pushing myself to grow as a designer.
+</span>
+    </p>
+    <button onclick="toggleReadMore()" id="myBtn">Read more</button>
+  </div>
+   <script>
+    function toggleReadMore() {
+      let dots = document.getElementById("dots");
+      let moreText = document.getElementById("more");
+      let btnText = document.getElementById("myBtn");
+
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more";
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less";
+        moreText.style.display = "inline";
+      }
+    }
+  </script>
+
 
     <div class="thought-box">
       Hakuna Matata the great motto to live life.

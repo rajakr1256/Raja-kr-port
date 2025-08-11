@@ -5,34 +5,113 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Music Page</title>
   <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <nav>
-      <a href="index.html">HOME</a>
-      <a href="interest.html">Movie</a>
-      <a href="bar.html">☰</a>
-    </nav>
-  </header>
 
   <main>
-    <section class="music-hero">
-      <h1>MUSIC</h1>
-    </section>
+    <nav>
+      <a href="index.html">HOME</a>
+      <a href="interest.html">MOVIE</a>
+      <a href="bar.html">☰</a>
+    </nav>
+    <div class="music-para">
+    <H2>MUSIC</H2>
+    </div>
+ <div class="slider">
 
-    <section class="song-slider">
-      <button class="arrow left">‹</button>
-      <div class="song-title">Tera Yaar Hoon Main</div>
-      <button class="arrow right">›</button>
-    </section>
+  <input type="radio" name="slide" id="s1">
+  <input type="radio" name="slide" id="s2">
+  <input type="radio" name="slide" id="s3">
+  <input type="radio" name="slide" id="s4">
 
-    <section class="music-grid">
-      <div class="music-card">
-        <div class="thumbnail"></div>
-        <div class="info">
-          <p>Song title</p>
+  <div class="slides">
+    <div class="item">
+      <img src="https://w0.peakpx.com/wallpaper/277/693/HD-wallpaper-the-batman-movie-art-design-poster.jpg" alt="Image 1">
+    </div>
+    <div class="item">
+      <img src="https://c4.wallpaperflare.com/wallpaper/410/331/586/movies-superman-man-of-steel-henry-cavill-wallpaper-preview.jpg" alt="Image 2">
+    </div>
+    <div class="item">
+      <img src="https://images2.alphacoders.com/112/1120632.jpg" alt="Image 3">
+    </div>
+    <div class="item">
+      <img src="https://images.thedirect.com/media/article_full/spider-man-no-way-home-poster-doc-ock.jpg" alt="Image 4">
+    </div>
+  </div>
 
-    </section>
+  <div class="controls">
+    <label for="s4" class="prev">&#10094;</label>
+    <label for="s2" class="next">&#10095;</label>
+
+    <label for="s1" class="prev2">&#10094;</label>
+    <label for="s3" class="next2">&#10095;</label>
+
+    <label for="s2" class="prev3">&#10094;</label>
+    <label for="s4" class="next3">&#10095;</label>
+
+    <label for="s3" class="prev4">&#10094;</label>
+    <label for="s1" class="next4">&#10095;</label>
+  </div>
+
+  <div class="dots">
+    <label for="s1"></label>
+    <label for="s2"></label>
+    <label for="s3"></label>
+    <label for="s4"></label>
+  </div>
+</div>
+
+  <div class="scroll-container right-to-left">
+    <div class="scroll-content">
+
+      <img src="img1.jpg" alt="">
+      <img src="img2.jpg" alt="">
+      <img src="img3.jpg" alt="">
+      <img src="img4.jpg" alt="">
+      <img src="img5.jpg" alt="">
+            <img src="img6.jpg" alt="">
+      <img src="img7.jpg" alt="">
+      <img src="img8.jpg" alt="">
+      <img src="img9.jpg" alt="">
+      <img src="img10.jpg" alt="">
+    </div>
+  </div>
+
+  <div class="scroll-container left-to-right">
+    <div class="scroll-content">
+      <img src="img11.jpg" alt="">
+      <img src="img12.jpg" alt="">
+      <img src="img13.jpg" alt="">
+      <img src="img14.jpg" alt="">
+      <img src="img15.jpg" alt="">
+            <img src="img16.jpg" alt="">
+      <img src="img17.jpg" alt="">
+      <img src="img18.jpg" alt="">
+      <img src="img19.jpg" alt="">
+      <img src="img120.jpg" alt="">
+    </div>
+  </div>
+
+  <div class="scroll-container right-to-left2">
+    <div class="scroll-content">
+      <img src="img1.jpg" alt="">
+      <img src="img2.jpg" alt="">
+      <img src="img3.jpg" alt="">
+      <img src="img4.jpg" alt="">
+      <img src="img5.jpg" alt="">
+            <img src="img6.jpg" alt="">
+      <img src="img7.jpg" alt="">
+      <img src="img8.jpg" alt="">
+      <img src="img9.jpg" alt="">
+      <img src="img10.jpg" alt="">
+    </div>
+  </div>
+
+
+
   </main>
 </body>
 </html>
