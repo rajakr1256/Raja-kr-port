@@ -28,36 +28,63 @@
 
     <div class="category-buttons">
       <button>GAME</button>
-      <button>MOVIES</button>
-      <button><a href="Music.html">Music</a></button>
+      <button><a href="interest.html">MOVIE</a></button>
+      <button><a href="Music.html">MUSIC</a></button>
     </div>
     <div class="post-container">
       <h3>New Post</h3>
       <div class="scrollable-feed">
       <div class="post-box dark">
-        <div class="icon-bar">👍 🗨</div>
-      </div>
-      <div class="post-box">
-        <div class="icon-bar">👍 🗨</div>
-      </div>
-            <div class="post-box dark">
-        <div class="icon-bar">👍 🗨</div>
-      </div>
-      <div class="post-box">
-        <div class="icon-bar">👍 🗨</div>
-      </div>
-      <div class="post-box dark">
-        <div class="icon-bar">👍 🗨</div>
-      </div>
-      <div class="post-box">
-        <div class="icon-bar">👍 🗨</div>
-      </div>
-            <div class="post-box dark">
-        <div class="icon-bar">👍 🗨</div>
-      </div>
-      <div class="post-box">
-        <div class="icon-bar">👍 🗨</div>
-      </div>
+    <div class="icon-bar">
+      <button class="icon-btn" onclick="likePost(this)">👍 <span class="like-count">0</span></button>
+      <button class="icon-btn" onclick="commentPost(this)">🗨 Comment</button>
+    </div>
+    <div class="comments"></div>
+  </div>
+
+  <div class="post-box">
+    <div class="icon-bar">
+      <button class="icon-btn" onclick="likePost(this)">👍 <span class="like-count">0</span></button>
+      <button class="icon-btn" onclick="commentPost(this)">🗨 Comment</button>
+    </div>
+    <div class="comments"></div>
+  </div>
+  <div class="post-box dark">
+    <div class="icon-bar">
+      <button class="icon-btn" onclick="likePost(this)">👍 <span class="like-count">0</span></button>
+      <button class="icon-btn" onclick="commentPost(this)">🗨 Comment</button>
+    </div>
+    <div class="comments"></div>
+  </div>
+
+  <div class="post-box">
+    <div class="icon-bar">
+      <button class="icon-btn" onclick="likePost(this)">👍 <span class="like-count">0</span></button>
+      <button class="icon-btn" onclick="commentPost(this)">🗨 Comment</button>
+    </div>
+    <div class="comments"></div>
+  </div>
+
+
+  <script>
+    function likePost(button) {
+      let countSpan = button.querySelector(".like-count");
+      let count = parseInt(countSpan.textContent);
+      countSpan.textContent = count + 1;
+    }
+
+    function commentPost(button) {
+      let comment = prompt("Enter your comment:");
+      if (comment) {
+        let postBox = button.closest(".post-box");
+        let commentsDiv = postBox.querySelector(".comments");
+        let commentEl = document.createElement("p");
+        commentEl.className = "comment";
+        commentEl.textContent = comment;
+        commentsDiv.appendChild(commentEl);
+      }
+    }
+  </script>
     </div>
     </div>
 
