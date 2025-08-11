@@ -3,6 +3,9 @@
   padding: 0PX;
   box-sizing: border-box;
 }
+h1,h2,h3,.category-buttons{
+   font-family: "Protest Riot", sans-serif;
+}
 
 body {
   font-family: 'Segoe UI', sans-serif;
@@ -89,6 +92,7 @@ h2 {
 
 }
 .category-buttons {
+  font-family:"Protest Riot", sans-serif ;
   display: flex;
   justify-content: center;
   gap: 150px;
@@ -130,7 +134,7 @@ h2 {
 
 .post-container h3 {
   color: black;
-  font-size: 2rem;
+  font-size: 4rem;
   margin: 50px;
 }
 .post-box {
@@ -169,6 +173,8 @@ footer {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+h1{font-family: "Protest Riot", sans-serif;
 }
 
 body {
@@ -357,36 +363,17 @@ body{
     no-repeat 50% / cover;
 }
 .container > div:nth-of-type(5) {
-  background: url(https://w0.peakpx.com/wallpaper/277/693/HD-wallpaper-the-batman-movie-art-design-poster.jpg)
+  background: url(https://i.pinimg.com/736x/90/4f/4e/904f4e884488866c2340b931232161be.jpg)
     no-repeat 50% / cover;
 }
 .container > div:nth-of-type(6) {
-  background: url(https://c4.wallpaperflare.com/wallpaper/410/331/586/movies-superman-man-of-steel-henry-cavill-wallpaper-preview.jpg)
+  background: url(https://i.pinimg.com/736x/a7/ee/74/a7ee74f515084ec11bd6adb8630b83b6.jpg)
     no-repeat 50% / cover;
 }
 .container > div:nth-of-type(7) {
-  background: url(https://images2.alphacoders.com/112/1120632.jpg)
+  background: url(https://wallpapercat.com/w/full/4/0/3/457734-1375x2444-iphone-hd-john-wick-wallpaper-image.jpg)
     no-repeat 50% / cover;
-}
-.container > div:nth-of-type(8) {
-  background: url(https://images.thedirect.com/media/article_full/spider-man-no-way-home-poster-doc-ock.jpg)
-    no-repeat 50% / cover;
-}
-.container > div:nth-of-type(9) {
-  background: url(https://w0.peakpx.com/wallpaper/277/693/HD-wallpaper-the-batman-movie-art-design-poster.jpg)
-    no-repeat 50% / cover;
-}
-.container > div:nth-of-type(10) {
-  background: url(https://c4.wallpaperflare.com/wallpaper/410/331/586/movies-superman-man-of-steel-henry-cavill-wallpaper-preview.jpg)
-    no-repeat 50% / cover;
-}
-.container > div:nth-of-type(11) {
-  background: url(https://images2.alphacoders.com/112/1120632.jpg)
-    no-repeat 50% / cover;
-}
-.container > div:nth-of-type(12) {
-  background: url(https://images.thedirect.com/media/article_full/spider-man-no-way-home-poster-doc-ock.jpg)
-    no-repeat 50% / cover;
+
 }
 
 .container > div .content {
@@ -454,6 +441,31 @@ body{
   align-items: center;
  max-width: 350px;
   height: 500px;
+  background: url(https://png.pngtree.com/thumb_back/fh260/background/20230912/pngtree-housing-prices-falling-image_13254276.jpg)
+    no-repeat 50% / cover;
+  border: none;
+  position: relative;
+  cursor: pointer; position: relative;
+  text-decoration: none;
+  color: white;
+  font-size: 50px;
+  font-family: Arial, sans-serif;
+}
+.bar-text {
+  position: absolute;
+  top: 10px;
+  left: 37%;
+  transform: translateX(-50%,-50%);
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.8);
+}
+.bar-image2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ max-width: 350px;
+  height: 500px;
   background: url(https://w0.peakpx.com/wallpaper/277/693/HD-wallpaper-the-batman-movie-art-design-poster.jpg)
     no-repeat 50% / cover;
   border: none;
@@ -465,7 +477,33 @@ body{
   font-family: Arial, sans-serif;
 
 }
-.bar-text {
+.bar-text2 {
+  position: absolute;
+  top: 10px;
+  left: 37%;
+  transform: translateX(-50%,-50%);
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.8);
+}
+.bar-image3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ max-width: 350px;
+  height: 500px;
+  background: url(https://i.ebayimg.com/images/g/4CkAAOSwQspjBLTc/s-l400.jpg)
+    no-repeat 50% / cover;
+  border: none;
+  position: relative;
+  cursor: pointer; position: relative;
+  text-decoration: none;
+  color: white;
+  font-size: 50px;
+  font-family: Arial, sans-serif;
+
+}
+.bar-text3 {
   position: absolute;
   top: 10px;
   left: 37%;
@@ -475,13 +513,6 @@ body{
   text-shadow: 1px 1px 4px rgba(0,0,0,0.8);
 }
 
-.bar-container > div:nth-of-type(2) {
-  background: url(https://c4.wallpaperflare.com/wallpaper/410/331/586/movies-superman-man-of-steel-henry-cavill-wallpaper-preview.jpg)
-    no-repeat 50% / cover;
-}
-.bar-container > div:nth-of-type(3) {
-  background: url(https://images2.alphacoders.com/112/1120632.jpg)
-    no-repeat 50% / cover;
 }
 .bar-container > div .content {
   font-size: 1.5rem;
@@ -612,52 +643,33 @@ a {
 }
 
 .container-bar > div:nth-of-type(1) {
-  background: url(https://w0.peakpx.com/wallpaper/277/693/HD-wallpaper-the-batman-movie-art-design-poster.jpg)
+  background: url(https://w0.peakpx.com/wallpaper/336/959/HD-wallpaper-the-witcher-film-game-movie-series-sword-war-warriir-witch.jpg)
     no-repeat 50% / cover;
 }
 .container-bar > div:nth-of-type(2) {
-  background: url(https://c4.wallpaperflare.com/wallpaper/410/331/586/movies-superman-man-of-steel-henry-cavill-wallpaper-preview.jpg)
+  background: url(https://i.pinimg.com/564x/2e/f1/02/2ef1022af322d88be53d5470f047f6be.jpg)
     no-repeat 50% / cover;
 }
 .container-bar > div:nth-of-type(3) {
-  background: url(https://images2.alphacoders.com/112/1120632.jpg)
+  background: url(https://i.pinimg.com/736x/d5/4f/b4/d54fb46faf2554e8692f3c875231807c.jpg)
     no-repeat 50% / cover;
 }
 .container-bar > div:nth-of-type(4) {
-  background: url(https://images.thedirect.com/media/article_full/spider-man-no-way-home-poster-doc-ock.jpg)
+  background: url(https://www.limitedruns.com/media/cache/aa/fc/aafcd5a32288bb9f1bf11f2894548428.jpg)
     no-repeat 50% / cover;
 }
 .container-bar > div:nth-of-type(5) {
-  background: url(https://w0.peakpx.com/wallpaper/277/693/HD-wallpaper-the-batman-movie-art-design-poster.jpg)
+  background: url(https://cdn.marvel.com/content/1x/dp3_1sht_digital_srgb_ka_swords_v5_resized.jpg)
     no-repeat 50% / cover;
 }
 .container-bar > div:nth-of-type(6) {
-  background: url(https://c4.wallpaperflare.com/wallpaper/410/331/586/movies-superman-man-of-steel-henry-cavill-wallpaper-preview.jpg)
+  background: url(https://i.pinimg.com/736x/11/06/94/110694f8bdc1ce935f0000fc0eed7d8e.jpg)
     no-repeat 50% / cover;
 }
 .container-bar > div:nth-of-type(7) {
-  background: url(https://images2.alphacoders.com/112/1120632.jpg)
+  background: url(https://i.pinimg.com/474x/af/2e/57/af2e572d75db31e0f91b7220e527648f.jpg)
     no-repeat 50% / cover;
-}
-.container-bar > div:nth-of-type(8) {
-  background: url(https://images.thedirect.com/media/article_full/spider-man-no-way-home-poster-doc-ock.jpg)
-    no-repeat 50% / cover;
-}
-.container-bar > div:nth-of-type(9) {
-  background: url(https://w0.peakpx.com/wallpaper/277/693/HD-wallpaper-the-batman-movie-art-design-poster.jpg)
-    no-repeat 50% / cover;
-}
-.container-bar > div:nth-of-type(10) {
-  background: url(https://c4.wallpaperflare.com/wallpaper/410/331/586/movies-superman-man-of-steel-henry-cavill-wallpaper-preview.jpg)
-    no-repeat 50% / cover;
-}
-.container-bar > div:nth-of-type(11) {
-  background: url(https://images2.alphacoders.com/112/1120632.jpg)
-    no-repeat 50% / cover;
-}
-.container-bar > div:nth-of-type(12) {
-  background: url(https://images.thedirect.com/media/article_full/spider-man-no-way-home-poster-doc-ock.jpg)
-    no-repeat 50% / cover;
+
 }
 
 .container-bar > div .content {
@@ -697,6 +709,70 @@ a {
   visibility: visible;
   opacity: 1;
   transform: translateY(0%);
+}
+.footer {
+  max-width: 910px;
+  margin: 8px auto 6px;
+  padding: 0 20px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.footer-top-line,
+.footer-bottom-line {
+  height: 4px;
+  background-color: black;
+  width: 910px;
+}
+
+.footer-top-line {
+  margin-bottom: 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  flex-wrap: nowrap;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-heading {
+  font-size: 36px;
+  font-weight: 700;
+  font-family: "Newsreader", serif;
+  margin-bottom: 6px;
+}
+
+.footer-subtext {
+  font-size: 16px;
+  margin: 0;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.footer-icons img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.footer-icons img:hover {
+  transform: scale(1.1);
+}
+
+.footer-bottom-line {
+  margin-top: 40px;
 }
 
 
