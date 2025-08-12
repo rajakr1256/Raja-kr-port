@@ -914,7 +914,7 @@ input[type="radio"] {
 }
 
 .right-to-left .scroll-content {
-  animation: scroll-rtl 50s linear infinite;
+  animation: scroll-rtl 60s linear infinite;
   bottom: -700px;
 }
 
@@ -924,7 +924,7 @@ input[type="radio"] {
 }
 
 .left-to-right .scroll-content {
-  animation: scroll-ltr 50s linear infinite;
+  animation: scroll-ltr 60s linear infinite;
   bottom: -800px;
 }
 
@@ -933,7 +933,7 @@ input[type="radio"] {
   to { transform: translateX(0); }
 }
 .right-to-left2 .scroll-content {
-  animation: scroll-rtl 50s linear infinite;
+  animation: scroll-rtl 60s linear infinite;
   bottom: -900px;
 }
 
