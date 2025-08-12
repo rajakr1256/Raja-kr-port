@@ -125,7 +125,7 @@ h2 {
   background: #555;
 }
 .post-container {
-  background: linear-gradient(to bottom, #ffffff, #cccccc);
+  background: linear-gradient(to bottom, #ffffff, black);
   padding: 20px;
   border-radius: 20px;
   max-width: 800px;
@@ -832,7 +832,7 @@ input[type="radio"] {
 
 .controls2 label {
   position: absolute;
-  top: 150px;
+  top: 180px;
   transform: translateY(-50%);
   font-size: 2.5rem;
   color: white;
