@@ -783,61 +783,61 @@ a {
   align-items: center;
 
 
-.slider {
-  width: 80%;
-  max-width: 700px;
+.slider2 {
+  width: 50%;
+  max-width: 800px;
   height: 60vh;
   position: absolute;
   top: 250px;
   right: 400px;
   overflow: hidden;
-  border-radius: 12px;
+  border-radius: 20px;
 
 }
 input[type="radio"] {
   display: none;
 }
 
-.slides {
+.slides2 {
   display: flex;
-  width: 400%;
+  width: 500%;
   height: 100%;
   transition: transform 0.8s ease-in-out;
 }
 
-.item {
+.item2 {
   width: 100%;
   height: 100%;
   flex-shrink: 0;
 }
 
-.item img {
-  width: 26%;
-  height: 100%;
-  object-fit: cover;
+.item2 img {
+  width: 21%;
+  height: 70%;
+
 }
 
-#s1:checked ~ .slides {
+#s1:checked ~ .slides2 {
   transform: translateX(0%);
 }
-#s2:checked ~ .slides {
+#s2:checked ~ .slides2 {
   transform: translateX(-100%);
 }
-#s3:checked ~ .slides {
+#s3:checked ~ .slides2 {
   transform: translateX(-200%);
 }
-#s4:checked ~ .slides {
+#s4:checked ~ .slides2 {
   transform: translateX(-300%);
 }
 
-.controls label {
+.controls2 label {
   position: absolute;
-  top: 250px;
+  top: 150px;
   transform: translateY(-50%);
   font-size: 2.5rem;
   color: white;
   cursor: pointer;
-  padding: 10px;
+  padding: 15px;
   background: rgba(0, 0, 0, 0.3);
   border-radius: 50%;
   z-index: 10;
@@ -845,21 +845,21 @@ input[type="radio"] {
   display: none;
 }
 
-#s1:checked ~ .controls .prev { display: block; left: 10px; }
-#s1:checked ~ .controls .next { display: block; right: 10px; }
+#s1:checked ~ .controls2 .prev { display: block; left: 10px; }
+#s1:checked ~ .controls2 .next { display: block; right: 10px; }
 
-#s2:checked ~ .controls .prev2 { display: block; left: 10px; }
-#s2:checked ~ .controls .next2 { display: block; right: 10px; }
+#s2:checked ~ .controls2 .prev2 { display: block; left: 10px; }
+#s2:checked ~ .controls2 .next2 { display: block; right: 10px; }
 
-#s3:checked ~ .controls .prev3 { display: block; left: 10px; }
-#s3:checked ~ .controls .next3 { display: block; right: 10px; }
+#s3:checked ~ .controls2 .prev3 { display: block; left: 10px; }
+#s3:checked ~ .controls2 .next3 { display: block; right: 10px; }
 
-#s4:checked ~ .controls .prev4 { display: block; left: 10px; }
-#s4:checked ~ .controls .next4 { display: block; right: 10px; }
+#s4:checked ~ .controls2 .prev4 { display: block; left: 10px; }
+#s4:checked ~ .controls2 .next4 { display: block; right: 10px; }
 
-.dots {
+.dots2 {
   position: absolute;
-  bottom: 15px;
+  bottom: 150px;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -867,7 +867,7 @@ input[type="radio"] {
   z-index: 20;
 }
 
-.dots label {
+.dots2 label {
   width: 12px;
   height: 12px;
   background: white;
@@ -877,10 +877,10 @@ input[type="radio"] {
   transition: 0.3s;
 }
 
-#s1:checked ~ .dots label:nth-child(1),
-#s2:checked ~ .dots label:nth-child(2),
-#s3:checked ~ .dots label:nth-child(3),
-#s4:checked ~ .dots label:nth-child(4),
+#s1:checked ~ .dots2 label:nth-child(1),
+#s2:checked ~ .dots2 label:nth-child(2),
+#s3:checked ~ .dots2 label:nth-child(3),
+#s4:checked ~ .dots2 label:nth-child(4),
 {
   opacity: 1;
   transform: scale(1.2);}
@@ -896,7 +896,7 @@ input[type="radio"] {
 .scroll-container {
 
   overflow: hidden;
-  width: 100%;
+  width: 50%;
   border-radius: 10px;
 }
 
@@ -914,8 +914,8 @@ input[type="radio"] {
 }
 
 .right-to-left .scroll-content {
-  animation: scroll-rtl 20s linear infinite;
-  bottom: -800px;
+  animation: scroll-rtl 50s linear infinite;
+  bottom: -700px;
 }
 
 @keyframes scroll-rtl {
@@ -924,8 +924,8 @@ input[type="radio"] {
 }
 
 .left-to-right .scroll-content {
-  animation: scroll-ltr 20s linear infinite;
-  bottom: -900px;
+  animation: scroll-ltr 50s linear infinite;
+  bottom: -800px;
 }
 
 @keyframes scroll-ltr {
@@ -933,8 +933,8 @@ input[type="radio"] {
   to { transform: translateX(0); }
 }
 .right-to-left2 .scroll-content {
-  animation: scroll-rtl 20s linear infinite;
-  bottom: -1000px;
+  animation: scroll-rtl 50s linear infinite;
+  bottom: -900px;
 }
 
 @keyframes scroll-rtl {
@@ -945,7 +945,7 @@ input[type="radio"] {
   H2{
     position: absolute;
     top: 100px;
-    right: 42%;
+    right: 45%;
     font-size: 80px;
     font-family: "Protest Riot", sans-serif;
   }
